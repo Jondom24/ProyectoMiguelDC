@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url("https://aptus.com.ar/wp-content/uploads/2022/06/Dia-de-los-Jardines.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+*{
+    front-family: 'Lato', sans-serif;
+    front-family: 'Open Sans', sans-serif;
+    front-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+form{
+    width: 600px;
+    border: 2px solid black;
+    padding: 6rem;
+    background-color: #b8b8b8c2;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    color: aliceblue;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+h1{
+    display: block;
+    border: 2px solid rgb(0, 0, 0);
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+label{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 350;
+}
+
+input{
+    display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+button{
+    float: left;
+    background-color: #3f0171;
+    padding: .6rem;
+    color: white;
+    border: none;
+    width: 40%;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+a{
+    float: left;
+    margin-left: 10px;
+    padding: .5rem;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+
+.error{
+    background-color: rgb(175, 74, 74);
+    color: black;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
